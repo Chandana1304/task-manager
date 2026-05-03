@@ -23,7 +23,7 @@ function RoleRoute({ children, allowedRole }) {
 }
 
 function App() {
-  const [token, setToken] = useState(localStorage.getItem("token") || "");
+  const [, setToken] = useState(localStorage.getItem("token") || "");
   const [role, setRole] = useState(localStorage.getItem("role") || "");
 
   return (
