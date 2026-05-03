@@ -7,7 +7,7 @@ import EmptyState from "./components/EmptyState";
 import "./styles.css";
 
 function Dashboard() {
-  const [data, setData] = useState({});
+  const [, setData] = useState({});
   const [tasks, setTasks] = useState([]);
   const [projects, setProjects] = useState([]);
   const [title, setTitle] = useState("");
